@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="sr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+        <script
+            src="https://kit.fontawesome.com/029b218742.js"
+            crossorigin="anonymous"
+        ></script>
+        <link
+            href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="./dist/css/app.css" />
+        <title>Cvecara TNS - Naslovna</title>
+    </head>
+    <body>
+        <header class="header">
+            <a href="/index.html" class="header__logo-holder">
+                <img
+                    src="./images/header__logo.png"
+                    alt=" TNS cvecara"
+                    class="header__logo"
+                />
+            </a>
+            <nav class="header__navbar" id="menu">
+                <a href="#" class="header__link active">Naslovna</a>
+                <a href="./products.html" class="header__link">Proizvodi</a>
+                <a href="./about.html" class="header__link">O nama</a>
+                <a href="./contact.html" class="header__link">Kontakt</a>
+                <button
+                    class="header__close-buton"
+                    data-target="#menu"
+                    data-toggle="toggle"
+                >
+                    <i class="fas fa-times fa-2x"></i>
+                </button>
+            </nav>
+            <button
+                class="header__menu-buton"
+                data-target="#menu"
+                data-toggle="toggle"
+            >
+                <i class="fas fa-bars fa-2x"></i>
+            </button>
+        </header>
+        <div class="page-wrapper">
+            <section class="intro">
+                <div class="intro__text-box">
+                    <h1 class="intro__title">
+                        Dobrodosli u TNS cvecaru!
+                    </h1>
+                    <p class="intro__text">
+                        Dostava cveća na željenu adresu. Online porudžbina cveća, aranžmana, poklona sa dostavom istog dana. Veliki izbor, najbolje cene...
+                    </p>
+                </div>
+            </section>
+            <section class="showcase">
+                <div class="showcase__row">
+                    <div class="showcase__image-block">
+                        <div
+                            class="showcase__image lazyload"
+                            data-src="./images/products/product__pink__1.webp"
+                        ></div>
+                    </div>
+                    <div class="showcase__text-block">
+                        <h2 class="showcase__title">
+                            Buket cveca PINK
+                        </h2>
+                        <p class="showcase__text">
+                            Roze ruže, gerberi uz kombinaciju dodatnog sezonskog cveća i zelenila, aranžirano u popularno zvanom flower box-u predstavljaju idealan poklon za vašu dragu osobu. Poručite odmah.
+                            Cena: 2999 dinara
+                        </p>
+                    </div>
+                </div>
+                <div class="showcase__row">
+                    <div class="showcase__image-block">
+                        <div
+                            class="showcase__image lazyload"
+                            data-src="./images/products/product__red__1.webp"
+                        ></div>
+                    </div>
+                    <div class="showcase__text-block">
+                        <h2 class="showcase__title">
+                            Buket cveca RED
+                        </h2>
+                        <p class="showcase__text">
+                            Crveni karanfili sa dodatnim zlatnim veštačkim umetcima, aranžirano u popularno zvanom flower box-u idealna kombinacija ukoliko želite da osobi ostane ukras nakon buketa. Cena: 1900 dinara
+                        </p>
+                    </div>
+                </div>
+                <div class="showcase__row">
+                    <div class="showcase__image-block">
+                        <div
+                            class="showcase__image lazyload"
+                            data-src="./images/products/product__white__1.webp"
+                        ></div>
+                    </div>
+                    <div class="showcase__text-block">
+                        <h2 class="showcase__title">
+                            Bukdet cveca WHITE
+                        </h2>
+                        <p class="showcase__text">
+                            Beli ljiljani uz dodatno sezonsko cveće, aranžirano u retro bokalu idealnim za vašu terasu ili neki otvoreni prostor. Cena: 3590 dinara
+                        </p>
+                    </div>
+                </div>
+                <div class="showcase__row">
+                    <div class="showcase__image-block">
+                        <div
+                            class="showcase__image lazyload"
+                            data-src="./images/showcase__4.jpg"
+                        ></div>
+                    </div>
+                    <div class="showcase__text-block">
+                        <h2 class="showcase__title">
+                            Gerberi u raznim bojama
+                        </h2>
+                        <p class="showcase__text">
+                            Gerberi su omiljeno cveće mnogima, pa ne čudi što zauzimaju 5. mesto kada je dostava cveća u pitanju. Dostupni u nekoliko boja, čine idealan poklon za vaše drage osobe. Cena: 200 dinara/komad
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer class="footer">
+            Powered by&nbsp;<b>TNS developers team</b>&nbsp; &copy;2019
+        </footer>
+        <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"
+        ></script>
+        <script src="./dist/js/jquery.validate.min.js"></script>
+        <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/blazy/latest/blazy.min.js"></script>
+        <script src="./dist/js/app.js"></script>
+    </body>
+</html>

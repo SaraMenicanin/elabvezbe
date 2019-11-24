@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="sr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+        <link
+            href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap"
+            rel="stylesheet"
+        />
+        <script
+            src="https://kit.fontawesome.com/029b218742.js"
+            crossorigin="anonymous"
+        ></script>
+        <link
+            href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="./dist/css/app.css" />
+        <title>Naši proizvodi - TNS cvecara</title>
+    </head>
+    <body>
+        <header class="header">
+            <a href="./index.html" class="header__logo-holder">
+                <img
+                    src="./images/header__logo.png"
+                    alt=" TNS cvecara"
+                    class="header__logo"
+                />
+            </a>
+            <nav class="header__navbar" id="menu">
+                <a href="./index.html" class="header__link">Naslovna</a>
+                <a href="#" class="header__link active">Proizvodi</a>
+                <a href="./about.html" class="header__link">O nama</a>
+                <a href="./contact.html" class="header__link">Kontakt</a>
+                <button
+                    class="header__close-buton"
+                    data-target="#menu"
+                    data-toggle="toggle"
+                >
+                    <i class="fas fa-times fa-2x"></i>
+                </button>
+            </nav>
+            <button
+                class="header__menu-buton"
+                data-target="#menu"
+                data-toggle="toggle"
+            >
+                <i class="fas fa-bars fa-2x"></i>
+            </button>
+        </header>
+        <div class="page-wrapper">
+            <section class="intro">
+                <div class="intro__text-box">
+                    <h1 class="intro__title">
+                        Online prodavnica nasih proizvoda
+                    </h1>
+                    <p class="intro__text">
+                        Veliki izbor aranžmana i buketa. Dostava cveća na željenu adresu. Online porudžbina cveća, aranžmana, poklona sa dostavom istog dana. Veliki izbor, najbolje cene...
+                    </p>
+                </div>
+            </section>
+            <section class="products">
+                <div class="products__filter-wrapper">
+                    <button class="products__filter" data-filter="white"
+                        >White buketi</button
+                    >
+                    <button class="products__filter" data-filter="red"
+                        >Red buketi</button
+                    >
+                    <button class="products__filter" data-filter="pink"
+                        >Pink buketi</button
+                    >
+                </div>
+                <div class="products__product-list">
+                    <a
+                        href="./product.html"
+                        class="products__product-wrapper red"
+                    >
+                        <div class="products__product">
+                            <div class="product__image-wrapper">
+                                <div
+                                    class="products__image lazyload"
+                                    data-src="./images/products/product__red__1.webp"
+                                ></div>
+                            </div>
+                            <div class="products__info-box">
+                                <h3 class="products__title">
+                                    Buket cveca RED
+                                </h3>
+                                <p class="products__desc">
+                                    Crveni karanfili sa dodatnim zlatnim veštačkim umetcima, aranžirano u popularno zvanom flower box-u idealna kombinacija ukoliko želite da osobi ostane ukras nakon buketa. Cena: 1900 dinara
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a
+                        href="./product.html"
+                        class="products__product-wrapper white"
+                    >
+                        <div class="products__product">
+                            <div class="product__image-wrapper">
+                                <div
+                                    class="products__image lazyload"
+                                    data-src="./images/products/product__white__1.webp"
+                                ></div>
+                            </div>
+                            <div class="products__info-box">
+                                <h3 class="products__title">
+                                    Buket cveca WHITE
+                                </h3>
+                                <p class="products__desc">
+                                    Beli ljiljani uz dodatno sezonsko cveće, aranžirano u retro bokalu idealnim za vašu terasu ili neki otvoreni prostor. Cena: 3590 dinara
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a
+                        href="./product.html"
+                        class="products__product-wrapper red"
+                    >
+                        <div class="products__product">
+                            <div class="product__image-wrapper">
+                                <div
+                                    class="products__image lazyload"
+                                    data-src="./images/products/product__red__2.webp"
+                                ></div>
+                            </div>
+                            <div class="products__info-box">
+                                <h3 class="products__title">
+                                    Aranzman cveca RED
+                                </h3>
+                                <p class="products__desc">
+                                    Crveni karanfili sa dodatnim zlatnim veštačkim umetcima, aranžirano u popularno zvanom flower box-u idealna kombinacija ukoliko želite da osobi ostane ukras nakon buketa. Cena: 2900 dinara
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a
+                        href="./product.html"
+                        class="products__product-wrapper pink"
+                    >
+                        <div class="products__product">
+                            <div class="product__image-wrapper">
+                                <div
+                                    class="products__image lazyload"
+                                    data-src="./images/products/product__pink__1.webp"
+                                ></div>
+                            </div>
+                            <div class="products__info-box">
+                                <h3 class="products__title">
+                                    Buket cveca PINK
+                                </h3>
+                                <p class="products__desc">
+                                    Roze ruže, gerberi uz kombinaciju dodatnog sezonskog cveća i zelenila, aranžirano u popularno zvanom flower box-u predstavljaju idealan poklon za vašu dragu osobu. Poručite odmah.
+                            Cena: 2999 dinara
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a
+                        href="./product.html"
+                        class="products__product-wrapper white"
+                    >
+                        <div class="products__product">
+                            <div class="product__image-wrapper">
+                                <div
+                                    class="products__image lazyload"
+                                    data-src="./images/products/product__white__2.webp"
+                                ></div>
+                            </div>
+                            <div class="products__info-box">
+                                <h3 class="products__title">
+                                    Aranzman cveca WHITE
+                                </h3>
+                                <p class="products__desc">
+                                    Beli ljiljani uz dodatno sezonsko cveće, aranžirano u retro bokalu idealnim za vašu terasu ili neki otvoreni prostor. Cena: 3990 dinara
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a
+                        href="./product.html"
+                        class="products__product-wrapper pink"
+                    >
+                        <div class="products__product">
+                            <div class="product__image-wrapper">
+                                <div
+                                    class="products__image lazyload"
+                                    data-src="./images/products/product__pink__1.webp"
+                                ></div>
+                            </div>
+                            <div class="products__info-box">
+                                <h3 class="products__title">
+                                    Buket cveca PINK
+                                </h3>
+                                <p class="products__desc">
+                                    Roze ruže, gerberi uz kombinaciju dodatnog sezonskog cveća i zelenila, aranžirano u popularno zvanom flower box-u predstavljaju idealan poklon za vašu dragu osobu. Poručite odmah.
+                            Cena: 2999 dinara
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a
+                        href="./product.html"
+                        class="products__product-wrapper red"
+                    >
+                        <div class="products__product">
+                            <div class="product__image-wrapper">
+                                <div
+                                    class="products__image lazyload"
+                                    data-src="./images/products/product__red__3.webp"
+                                ></div>
+                            </div>
+                            <div class="products__info-box">
+                                <h3 class="products__title">
+                                    Buket cveca RED
+                                </h3>
+                                <p class="products__desc">
+                                    Crveni karanfili sa dodatnim zlatnim veštačkim umetcima, aranžirano u popularno zvanom flower box-u idealna kombinacija ukoliko želite da osobi ostane ukras nakon buketa. Cena: 3900 dinara
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a
+                        href="./product.html"
+                        class="products__product-wrapper pink"
+                    >
+                        <div class="products__product">
+                            <div class="product__image-wrapper">
+                                <div
+                                    class="products__image lazyload"
+                                    data-src="./images/products/product__pink__2.webp"
+                                ></div>
+                            </div>
+                            <div class="products__info-box">
+                                <h3 class="products__title">
+                                    Buket cveca PINK
+                                </h3>
+                                <p class="products__desc">
+                                    Roze ruže, gerberi uz kombinaciju dodatnog sezonskog cveća i zelenila, aranžirano u popularno zvanom flower box-u predstavljaju idealan poklon za vašu dragu osobu. Poručite odmah.
+                            Cena: 3999 dinara
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a
+                        href="./product.html"
+                        class="products__product-wrapper red"
+                    >
+                        <div class="products__product">
+                            <div class="product__image-wrapper">
+                                <div
+                                    class="products__image lazyload"
+                                    data-src="./images/products/product__red__4.webp"
+                                ></div>
+                            </div>
+                            <div class="products__info-box">
+                                <h3 class="products__title">
+                                    Buket cveca MIX
+                                </h3>
+                                <p class="products__desc">
+                                    Crveni karanfili sa dodatnim zlatnim veštačkim umetcima, aranžirano u popularno zvanom flower box-u idealna kombinacija ukoliko želite da osobi ostane ukras nakon buketa. Cena: 4950 dinara
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </section>
+        </div>
+        <footer class="footer">
+            Powered by &nbsp;<b>TNS developers team</b>&nbsp; &copy;2019
+        </footer>
+        <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"
+        ></script>
+        <script src="./dist/js/jquery.validate.min.js"></script>
+        <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/blazy/latest/blazy.min.js"></script>
+        <script src="./dist/js/app.js"></script>
+    </body>
+</html>
